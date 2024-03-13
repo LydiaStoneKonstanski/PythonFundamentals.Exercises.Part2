@@ -5,9 +5,9 @@ def exponentiate(num1, num2):
 def  raise_to_the_fourth_power(given_number):
     return exponentiate(given_number, 4)
 
-square = lambda num: math.pow(num, 2)
+square = lambda num: exponentiate(num, 2)
 
-cube = lambda num: math.pow(num, 3)
+cube = lambda num: exponentiate(num, 3)
 
 print(square(2))
 print(cube(2))
